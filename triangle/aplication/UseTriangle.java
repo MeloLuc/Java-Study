@@ -1,6 +1,6 @@
-package triangulo.aplication;
+package triangle.aplication;
 
-import triangulo.entities.Triangle;
+import triangle.entities.Triangle;
 
 public class UseTriangle {
 

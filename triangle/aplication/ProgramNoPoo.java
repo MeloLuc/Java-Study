@@ -1,4 +1,4 @@
-package triangulo.aplication;
+package triangle.aplication;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package triangulo.entities;
+package triangle.entities;
 
 import java.util.Locale;
 import java.util.Scanner;
