@@ -15,6 +15,9 @@ public class Program {
 
         inteiros = Arrays.asList(5,3,2);
         printList(inteiros);
+
+        curinga = inteiros;
+        printList(curinga);
     }
 
      //with the wildcard type we can make methods that receive any type of generic
