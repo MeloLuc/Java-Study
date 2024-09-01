@@ -12,6 +12,8 @@ public class Program {
 
     public static void main(String[] args) {
 
+        System.out.println("--------------------------------------------------");
+
         // adding/creating an instructor
         Instructor e1 = addInstructor();
 
@@ -26,11 +28,13 @@ public class Program {
 
 
         //show how many students the chosen instructor has
-        System.out.println("---------------------------");
+        System.out.println("--------------------------------------------------");
         Set<Student> students = new HashSet<>();
+
         for(Course c : e1.getCourses()) {
             students.addAll(c.getStudents());
         }
+
         System.out.println("the instructor " + e1.getName() + " [code " + e1.getCode() + "] has " + students.size() + " Students!");
         System.out.println("They are:");
         for(Student s : students) {
