@@ -6,7 +6,8 @@ import inheritanceAndPolymorphism.example.entities.SavingsAccount;
 
 public class Program {
     
-   public static void main(String[] args) {
+   @SuppressWarnings("unused")
+public static void main(String[] args) {
     
     Account Account1 = new Account(2135, "Lucas", 0.0);
     BusinessAccount busAccount1 = new BusinessAccount(4567, "Maria", 0.0, 100.0);
